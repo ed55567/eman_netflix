@@ -7,7 +7,7 @@ export default function Jumbotron({ children, direction = 'row', ...restProps })
     <Inner direction={direction}>
       {children}
     </Inner>
-  )
+  );
 }
 
 Jumbotron.Container = function JumbotronContainer({ children, ...restProps }) {
@@ -28,4 +28,4 @@ Jumbotron.SubTitle = function JumbotronSubTitle({ children, ...restProps }) {
 
 Jumbotron.Image = function JumbotronImage({ ...restProps }) {
   return <Image {...restProps} />;
-}
+};
